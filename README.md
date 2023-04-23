@@ -11,7 +11,7 @@ Realizado por:
 
 1- Diego Ariel Martinez Lemus ML222767
 
-2-
+2-Gerardo Antonio Herrra Cruz HC222757
 
 3-
 
