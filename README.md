@@ -11,9 +11,9 @@ Realizado por:
 
 1- Diego Ariel Martinez Lemus ML222767
 
-2-Gerardo Antonio Herrera Cruz HC222757
+2- Gerardo Antonio Herrera Cruz HC222757
 
-3-
+3- Ulises Adonay Flores Martínez FM222753
 
 4-
 
