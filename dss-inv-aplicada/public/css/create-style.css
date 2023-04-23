@@ -1,0 +1,50 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+form:nth-child(odd) {
+    row-gap: 25px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: #8a8a75;
+    color: #e7e7e3;
+    font-weight: bold;
+}
+
+
+
+input[type='submit'] {
+    width: 20%;
+    margin: auto;
+
+}
+
+div input[type='submit'] {
+    cursor: pointer;
+}

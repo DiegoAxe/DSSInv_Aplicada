@@ -1,0 +1,47 @@
+* {
+    transition: 500ms;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #232220;
+}
+
+body {
+    background-color: #e7e7e3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 15px;
+    margin: 55px auto;
+    border-radius: 10px;
+    background-color: #c4c4ba;
+}
+
+.btn:hover {
+    transition: 500ms;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(60, 8%, 50%);
+}
+
+.btn-second {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: hsl(60, 8%, 65%);
+}
+
+.btn-second:hover {
+    transition: 500ms;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #8a8a75;
+}

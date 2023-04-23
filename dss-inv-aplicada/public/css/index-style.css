@@ -1,0 +1,25 @@
+
+
+table {
+    margin: auto;
+    background-color: hsl(60, 8%, 75%);
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+
+th, td {
+    padding: 7px;
+    border: 1px solid #000;
+}
+
+.btns {
+    display: flex;
+    column-gap: 10px;
+    border-top: none;
+    border-left: none;
+}
+
