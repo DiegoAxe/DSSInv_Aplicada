@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the ramsey/uuid library
+ * This file is part of the ramsey/collection library
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -12,13 +12,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Uuid\Exception;
+namespace Ramsey\Collection\Exception;
 
-use LogicException as PhpLogicException;
+use RuntimeException;
 
 /**
- * Thrown to indicate that the requested operation is not supported
+ * Thrown to indicate that the requested operation is not supported.
  */
-class UnsupportedOperationException extends PhpLogicException implements UuidExceptionInterface
+class UnsupportedOperationException extends RuntimeException implements CollectionException
 {
 }

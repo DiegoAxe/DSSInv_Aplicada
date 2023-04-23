@@ -12,13 +12,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Collection\Exception;
-
-use InvalidArgumentException as PhpInvalidArgumentException;
+namespace Ramsey\Collection;
 
 /**
- * Thrown to indicate an argument is not of the expected type.
+ * `GenericArray` represents a standard array object.
+ *
+ * @extends AbstractArray<mixed>
  */
-class InvalidArgumentException extends PhpInvalidArgumentException implements CollectionException
+class GenericArray extends AbstractArray
 {
 }

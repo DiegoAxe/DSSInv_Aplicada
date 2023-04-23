@@ -12,13 +12,20 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Collection\Exception;
-
-use InvalidArgumentException as PhpInvalidArgumentException;
+namespace Ramsey\Collection;
 
 /**
- * Thrown to indicate an argument is not of the expected type.
+ * Collection sorting
  */
-class InvalidArgumentException extends PhpInvalidArgumentException implements CollectionException
+enum Sort: string
 {
+    /**
+     * Sort items in a collection in ascending order.
+     */
+    case Ascending = 'asc';
+
+    /**
+     * Sort items in a collection in descending order.
+     */
+    case Descending = 'desc';
 }

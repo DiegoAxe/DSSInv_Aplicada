@@ -14,11 +14,11 @@ declare(strict_types=1);
 
 namespace Ramsey\Collection\Exception;
 
-use InvalidArgumentException as PhpInvalidArgumentException;
+use RuntimeException;
 
 /**
- * Thrown to indicate an argument is not of the expected type.
+ * Thrown when attempting to operate on collections of differing types.
  */
-class InvalidArgumentException extends PhpInvalidArgumentException implements CollectionException
+class CollectionMismatchException extends RuntimeException implements CollectionException
 {
 }

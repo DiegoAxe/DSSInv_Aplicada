@@ -14,11 +14,11 @@ declare(strict_types=1);
 
 namespace Ramsey\Collection\Exception;
 
-use InvalidArgumentException as PhpInvalidArgumentException;
+use OutOfBoundsException as PhpOutOfBoundsException;
 
 /**
- * Thrown to indicate an argument is not of the expected type.
+ * Thrown when attempting to access an element out of the range of the collection.
  */
-class InvalidArgumentException extends PhpInvalidArgumentException implements CollectionException
+class OutOfBoundsException extends PhpOutOfBoundsException implements CollectionException
 {
 }

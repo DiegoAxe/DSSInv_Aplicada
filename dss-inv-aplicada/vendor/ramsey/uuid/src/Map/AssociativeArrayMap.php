@@ -12,13 +12,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Collection\Exception;
-
-use InvalidArgumentException as PhpInvalidArgumentException;
+namespace Ramsey\Collection\Map;
 
 /**
- * Thrown to indicate an argument is not of the expected type.
+ * `AssociativeArrayMap` represents a standard associative array object.
+ *
+ * @extends AbstractMap<string, mixed>
  */
-class InvalidArgumentException extends PhpInvalidArgumentException implements CollectionException
+class AssociativeArrayMap extends AbstractMap
 {
 }
