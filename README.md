@@ -15,6 +15,6 @@ Realizado por:
 
 3- Ulises Adonay Flores Martínez FM222753
 
-4-Cristian Alexis Lopez Tamayo LT222760
+4- Cristian Alexis Lopez Tamayo LT222760
 
 5-
