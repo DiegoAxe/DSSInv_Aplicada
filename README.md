@@ -18,3 +18,5 @@ Realizado por:
 4- Cristian Alexis Lopez Tamayo LT222760
 
 5- Andrés René Velásquez Rodríguez VR222732
+
+En caso de algun error, diganoslo para arreglarlo
